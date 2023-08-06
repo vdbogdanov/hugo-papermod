@@ -16,13 +16,13 @@ params:
   ShowReadingTime: true
 
   fuseOpts:
-      isCaseSensitive: false
-      shouldSort: true
-      location: 0
-      distance: 1000
-      threshold: 0.4
-      minMatchCharLength: 0
-      keys:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys:
       - "title"
       - "permalink"
       - "summary"
@@ -42,25 +42,25 @@ params:
 
   assets:
     favicon: "/favicons/favicon.ico"
-    favicon16x16: "/favicons/favicon-16x16.png"
-    favicon32x32: "/favicons/favicon-32x32.png"
-    apple_touch_icon: "/favicons/apple-touch-icon.png"
+    favicon16x16:  "/favicons/favicon-16x16.png"
+    favicon32x32:  "/favicons/favicon-32x32.png"
+    apple_touch_icon:  "/favicons/apple-touch-icon.png"
 
 menu:
   main:
     - identifier: categories
-      name: Categories
+      name: categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: Tags
+      name: tags
       url: /tags/
       weight: 20
     - identifier: about
-      name: About
+      name: about
       url: /about/
       weight: 30
     - identifier: search
-      name: Search
+      name: search
       pageref: /search
       weight: 40
