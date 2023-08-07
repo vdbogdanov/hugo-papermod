@@ -29,8 +29,8 @@ params:
       - "content"
 
   homeInfoParams:
-    Title: "Hi 🤗"
-    Content: "Welcome to my website!"
+    Title: "Привет 🤗"
+    Content: "Меня зовут Богданов Владимир, я разработчик / linux-инженер. Занимаюсь созданием различных проектов, специализируясь на автоматизации инфраструктурных задач. Сейчас я погружаюсь в технологический стек DevOps, поэтому в ближайшее время здесь появится много интересного материала..."
 
   socialIcons:
     - name: Github
@@ -49,18 +49,18 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
-      url: /categories/
+      name: Categories
+      url: /categories
       weight: 10
     - identifier: tags
-      name: tags
-      url: /tags/
+      name: Tags
+      url: /tags
       weight: 20
     - identifier: about
-      name: about
-      url: /about/
+      name: About
+      url: /about
       weight: 30
     - identifier: search
-      name: search
+      name: Search
       pageref: /search
       weight: 40
