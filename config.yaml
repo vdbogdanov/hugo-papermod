@@ -2,7 +2,7 @@ baseURL: "https://vdbogdanov.ru/"
 languageCode: "en-us"
 title: "[vdbogdanov@site]"
 theme: "PaperMod"
-googleAnalytics: "G-NMWZKMRJWX"
+googleAnalytics: "G-M9K8X0TT45"
 
 outputs:
   home:
