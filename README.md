@@ -1,1 +1,1 @@
-# vdbogdanov.ru
+# hugo-papermod
